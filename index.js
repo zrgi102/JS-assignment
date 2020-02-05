@@ -327,8 +327,8 @@ $(document).ready(function() {
                 $.each(x, function(i, field) {
                     $("#td30").append(field.value)
 
-                });
-            });
+                })
+            })
         })
     })
     $('#td31').click(function() {
