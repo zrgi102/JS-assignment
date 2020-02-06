@@ -20,8 +20,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td3').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -31,8 +31,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td4').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -64,8 +64,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td7').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -75,8 +75,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td8').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
