@@ -9,7 +9,7 @@ $(document).ready(function() {
                 });
             });
         });
-    })
+    });
 
     $('#td2').click(function() {
         $('#div2').show(function() {
@@ -20,8 +20,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td3').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -31,8 +31,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td4').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -42,8 +42,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td5').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -53,8 +53,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td6').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -64,8 +64,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td7').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -75,8 +75,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td8').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -86,8 +86,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td9').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -97,8 +97,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td10').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -108,8 +108,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td11').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -119,8 +119,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td12').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -130,8 +130,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td13').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -141,8 +141,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td14').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -152,8 +152,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td15').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -163,8 +163,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td16').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -174,8 +174,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td17').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -185,9 +185,9 @@ $(document).ready(function() {
 
                 });
             });
-        })
+        });
 
-    })
+    });
     $('#td18').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -197,8 +197,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td19').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -208,8 +208,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td20').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -219,8 +219,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td21').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -230,8 +230,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td22').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -241,8 +241,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td23').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -252,8 +252,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td24').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -263,8 +263,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td25').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -274,8 +274,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td26').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -285,8 +285,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td27').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -296,8 +296,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td28').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -307,8 +307,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td29').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -318,8 +318,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td30').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -329,8 +329,8 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
     $('#td31').click(function() {
         $('#div2').show(function() {
             $('#save').click(function() {
@@ -340,7 +340,7 @@ $(document).ready(function() {
 
                 });
             });
-        })
-    })
+        });
+    });
 
-})
+});
