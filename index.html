@@ -3,13 +3,16 @@
 
 <head>
     <title>Calender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <style>
         #div1 {
-            margin-top: 100px;
-            margin-bottom: 50px;
-            margin-left: 600px;
-            margin-right: 600px;
-            border: black 1px solid;
+            position: absolute;
+            left: 10px;
+            right: 100px;
         }
         
         td:hover {
@@ -18,7 +21,7 @@
         
         td:active {
             background-color: green;
-            display: inline;
+            display: flex;
         }
         
         body {
@@ -35,178 +38,182 @@
 
     <script src="jquery.js">
     </script>
-    <script src="index.js">
+    <script src="./index.js"></script>
     </script>
+
+
 </head>
 
 <body id="div1">
-    <div align="center">
+    <div class="container-fluid">
         <h1> May 2018</h1>
         <hr>
-        <table border="1px" cellspacing="0px" cellpadding="15px" id="t">
-            <tr>
-                <th>
-                    <h2><b>Sun</b></h2>
-                </th>
-                <th>
-                    <h2><b>Mon</b></h2>
-                </th>
-                <th>
-                    <h2><b>Tue</b></h2>
-                </th>
-                <th>
-                    <h2><b>Wed</b></h2>
-                </th>
-                <th>
-                    <h2><b>Thu</b></h2>
-                </th>
-                <th>
-                    <h2><b>Fri</b></h2>
-                </th>
-                <th>
-                    <h2><b>Sat</b></h2>
-                </th>
-
-            </tr>
-            <div>
+        <div class="col-sm">
+            <table border="1px" cellspacing="0px" cellpadding="15px" id="t" class='table-responsive-sm'>
                 <tr>
-
-                    <td></td>
-
-
-                    <td></td>
-
-
-                    <td id="td1">1</td>
-
-
-                    <td id="td2">2</td>
-
-
-                    <td id="td3">3</td>
-
-
-                    <td id="td4">4</td>
-
-
-                    <td id="td5">5</td>
-
+                    <th>
+                        <h2><b>Sun</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Mon</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Tue</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Wed</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Thu</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Fri</b></h2>
+                    </th>
+                    <th>
+                        <h2><b>Sat</b></h2>
+                    </th>
 
                 </tr>
-                <tr>
+                <div>
+                    <tr>
+
+                        <td></td>
 
 
-                    <td id="td6">6</td>
+                        <td></td>
 
 
-                    <td id="td7">7</td>
+                        <td id="td1" onclick="fn('1')">1
+                            <div id="1"></div>
+                        </td>
 
 
-                    <td id="td8">8</td>
+                        <td id="td2" onclick="fn('2')">2</td>
 
 
-                    <td id="td9">9</td>
+                        <td id="td3" onclick="fn('3')">3</td>
 
 
-                    <td id="td10">10</td>
+                        <td id="td4" onclick="fn('4')">4</td>
 
 
-                    <td id="td11">11</td>
+                        <td id="td5" onclick="fn('5')">5</td>
 
 
-                    <td id="td12">12</td>
+                    </tr>
+                    <tr>
 
 
-                </tr>
-                <tr>
-
-                    <td id="td13">13</td>
+                        <td id="td6" onclick="fn('6')">6</td>
 
 
-                    <td id="td14">14</td>
+                        <td id="td7" onclick="fn('7')">7</td>
 
 
-                    <td id="td15">15</td>
+                        <td id="td8" onclick="fn('8')">8</td>
 
 
-                    <td id="td16">16</td>
+                        <td id="td9" onclick="fn('9')">9</td>
 
 
-                    <td id="td17">17</td>
+                        <td id="td10" onclick="fn('10')">10</td>
 
 
-                    <td id="td18">18</td>
+                        <td id="td11" onclick="fn('11')">11</td>
 
 
-                    <td id="td19">19</td>
+                        <td id="td12" onclick="fn('12')">12</td>
 
 
-                </tr>
-                <tr>
+                    </tr>
+                    <tr>
 
-                    <td id="td20">20</td>
-
-
-                    <td id="td21">21</td>
+                        <td id="td13" onclick="fn('13')">13</td>
 
 
-                    <td id="td22">22</td>
+                        <td id="td14" onclick="fn('14')">14</td>
 
 
-                    <td id="td23">23</td>
+                        <td id="td15" onclick="fn('15')">15</td>
 
 
-                    <td id="td24">24</td>
+                        <td id="td16" onclick="fn('16')">16</td>
 
 
-                    <td id="td25">25</td>
+                        <td id="td17" onclick="fn('17')">17</td>
 
 
-                    <td id="td26">26</td>
+                        <td id="td18" onclick="fn('18')">18</td>
 
 
-                </tr>
-                <tr>
-
-                    <td id="td27">27</td>
+                        <td id="td19" onclick="fn('19')">19</td>
 
 
-                    <td id="td28">28</td>
+                    </tr>
+                    <tr>
+
+                        <td id="td20" onclick="fn('20')">20</td>
 
 
-                    <td id="td29">29</td>
+                        <td id="td21" onclick="fn('21')">21</td>
 
 
-                    <td id="td30">30</td>
+                        <td id="td22" onclick="fn('22')">22</td>
 
 
-                    <td id="td31">31</td>
+                        <td id="td23" onclick="fn('23')">23</td>
 
 
-                    <td></td>
+                        <td id="td24" onclick="fn('24')">24</td>
 
 
-                    <td></td>
+                        <td id="td25" onclick="fn('25')">25</td>
 
 
-                </tr>
+                        <td id="td26" onclick="fn('26')">26</td>
+
+
+                    </tr>
+                    <tr>
+
+                        <td id="td27" onclick="fn('27')">27</td>
+
+
+                        <td id="td28" onclick="fn('28')">28</td>
+
+
+                        <td id="td29" onclick="fn('29')">29</td>
+
+
+                        <td id="td30" onclick="fn('30')">30</td>
+
+
+                        <td id="td31" onclick="fn('31')">31</td>
+
+
+                        <td></td>
+
+
+                        <td></td>
+                    </tr>
+                </div>
+            </table>
+            </div</div>
+            <br>
+            <br>
+            <br>
+            <div id="div2" class="div2">
+                <form id="form" action="">
+                    Message&nbsp;<input type="text" id="text" name="text"><br><br>
+                    <button type="button" id="save">save</button>&nbsp;&nbsp;&nbsp;
+                    <button type="reset">Cancel</button>
+
+                </form>
+
             </div>
-        </table>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div id="div2" class="div2">
-        <form id="form1" class="form1">
-            Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br> Message&nbsp;
-            <textarea row="4" cols="21"></textarea><br><br>
-            <button type="submit" id="save">save</button>&nbsp;&nbsp;&nbsp;
-            <button type="reset">Cancel</button>
-        </form>
-
-        <label id="label1"></label>
-        <div id="div5"></div>
+            <label id="label1"></label>
+            <div id="div5"></div>
+        </div>
 </body>
-
 
 </html>
